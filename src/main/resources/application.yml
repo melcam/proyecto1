@@ -1,0 +1,16 @@
+server:
+    port: 8090
+spring:
+    data:
+        mongodb:
+            # Azure portal
+            uri: "mongodb+srv://rommel:proyectobootcamp@bootcamp.9fgvk.mongodb.net/bootcamp?retryWrites=true&w=majority"
+            #database: bootcamp
+#https://cloud.mongodb.com/
+#uri: "mongodb+srv://afmancilla:Bootcamp2022@cluster0.nh4vc.mongodb.net/bootcampodb"
+
+application:
+    endpoints:
+        url:
+            #valid_address: http://run.mocky.io/v3/d1d95b0c-349d-461b-8c6f-56b9c499c43e
+            valid_address: https://jsonplaceholder.typicode.com/users
